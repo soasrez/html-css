@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>outras formatações</title>
+</head>
+<body>
+    <h1>outras formatações</h1>
+    <h2>código fonte / pré formatação</h2>
+    <p>o comando <code>document.getElementById('teste')</code> é escrito em JavaScript.</p>
+
+    <pre>
+        <code>
+        num = int(input('Digite um número'))
+        if num % 2 == 0:
+            print(f'O número {num} é PAR')
+        else:
+            print(f'O número {num} é ÍMPAR')
+        print('Fim do programa')
+        </code>
+    </pre>
+    <h2>citações</h2>
+    <!--CITAÇÃO USE A TAG <q> no lugar de usar as ASPAS. Com a tag vc está dando sentido as coisas, nao apenas forma-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<q> Fugiat, consequuntur quae. Ducimus ea ullam, saepe repellendus perspiciatis necessitatibus nostrum numquam quis, dolore fugiat animi error ratione molestias soluta esse sapiente!</q></p> 
+
+    <h2>citações completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML PARA LEIGOS:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/HTML_CSS_Aprenda_como_construir_páginas/_fJPEAAAQBAJ?hl=pt-BR&gbpv=0">
+    <!--a parte de interna do site saberá que voce esta referenciando X livro colocando na tag blockquote cite=""-->
+        a diferença entre um elemento inline e um bloco de texto é importarnte. Os elementos html
+    </blockquote>
+
+    <h2>abreviações</h2>
+    <p>estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+
+    <h2>texto invertido</h2>
+    <p><bdo dir="rtl">tem coisa que é absurdo né e nao precisa</bdo></p>
+</body>
+</html>
